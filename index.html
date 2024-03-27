@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas" width="200" height="400"></canvas>
+        <div class="controls">
+            <div class="info">Keyboard controls:<br /><br />
+                ROTATE: &uarr;<br />
+                DOWN: &darr;<br />
+                LEFT: &larr;<br />
+                RIGHT: &rarr;<br />
+            </div>
+            <div class="dpad">
+                <button id="btn-up" data-key="38">&uarr;</button><br>
+                <button id="btn-left" data-key="37">&larr;</button>
+                <button id="btn-right" data-key="39">&rarr;</button><br>
+                <button id="btn-down" data-key="40">&darr;</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
